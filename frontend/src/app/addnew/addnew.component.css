@@ -1,0 +1,87 @@
+.itemCard {
+  padding-top: 15px;
+}
+
+.itemTitle {
+  margin: 0px;
+  width: 100%;
+}
+hr {
+  margin-top: 0px;
+  width: 100%
+}
+
+.buttonRE {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  transform: scale(0.95);
+  background-color: #ff1744;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0.5px 0.5px 5px rgba(0, 0, 0, 0.35);
+}
+.buttonRE:hover {
+  cursor: pointer;
+  transform: scale(0.85) !important;
+}
+.eqType {
+  position: absolute;
+  left: 3px;
+  top: 1px;
+}
+.x {
+  transform: scale(2) !important;
+}
+.buttonE {
+  width: 100%;
+  background-color: #3f51b5;
+  color: white;
+}
+.buttonR {
+  width: 100%;
+  background-color: #d50000;
+  color: white;
+}
+.buttonE:hover{
+  cursor: pointer;
+  transform: scale(0.95);
+}
+.buttonR:hover {
+  cursor: pointer;
+  transform: scale(0.95);
+}
+.equipCard{
+  transform: scale(0.85);
+  padding-bottom: 5px;
+  padding-left: 7px;
+  max-width: 120px;
+  min-width: 120px;
+  padding-right: 7px;
+}
+.equipCard mat-card-content {
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.equipCard mat-card-title {
+  margin-bottom: 0px;
+}
+.statsCard {
+  margin-top: 10px;
+  height: 100px;
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.eqName {
+  font-size:18px;
+  font-weight: bold;
+}
+.statsCard mat-card-content {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.statsCard {
+  padding-bottom: 10px;
+}

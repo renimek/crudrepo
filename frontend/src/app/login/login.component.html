@@ -1,0 +1,30 @@
+<div class="container">
+  <mat-card>
+    <mat-card-header>
+      <mat-card-title>
+        <h4>Login</h4>
+        <hr>
+      </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <form>
+        <mat-input-container>
+          <input [(ngModel)]="userData.login" name="login" matInput placeholder="login" type="text">
+        </mat-input-container>
+        <br>
+        <mat-input-container>
+          <input [(ngModel)]="userData.password" name="password" matInput placeholder="password" type="password">
+        </mat-input-container>
+        <br>
+        <button (click)="login()" mat-raised-button color="primary">Login</button>
+        <br>
+        <div *ngIf="authService.error">
+          {{ authService.error }}
+        </div>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>
+
+
+
